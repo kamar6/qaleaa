@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Tahoma, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  direction: rtl;
+}
+
+.navbar {
+  background-color: #4b2e1e;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.logo {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f1c40f;
+}
+
+.nav-links {
+  float: left;
+}
+
+.content {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-table td {
+  padding: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #eee;
+}
+
+button {
+  background-color: #d35400;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.footer {
+  background-color: #4b2e1e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
